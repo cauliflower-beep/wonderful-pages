@@ -1,4 +1,4 @@
-module tomatoList
+module wonderful-pages
 
 go 1.19
 

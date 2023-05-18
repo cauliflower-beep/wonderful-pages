@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"tomatoList/routers"
-	"tomatoList/setting"
+	"wonderful-pages/routers"
+	"wonderful-pages/setting"
 )
 
 func main() {
@@ -23,4 +23,5 @@ func main() {
 	if err := r.Run(fmt.Sprintf(":%d", setting.Conf.Port)); err != nil {
 		fmt.Printf("server startup failed, err:%v\n", err)
 	}
+	fmt.Println("server is listening ...")
 }
